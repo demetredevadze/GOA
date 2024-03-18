@@ -4,4 +4,4 @@
 user_namber1 = input("namber1: ")
 user_namber2 = input("namber2: ")
 
-equals = input("პასუხი მივიღე  " boolean(user_namber1 < user_namber2))
+equals = input("პასუხი მივიღე  " + user_namber1 < user_namber2)
