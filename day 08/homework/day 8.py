@@ -10,7 +10,7 @@ user_marks3 = int(input("marks3: "))
 user_marks4 = int(input("marks4: "))
 user_marks5 = int(input("marks5: "))
 
-sum = int(user_marks1 + user_marks2 + user_marks3 + user_marks4 + user_marks5)
+sum = user_marks1 + user_marks2 + user_marks3 + user_marks4 + user_marks5
 
 mid_mark = sum / 5
 
