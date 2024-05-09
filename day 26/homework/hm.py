@@ -4,6 +4,6 @@
 
 pasvord = 12345
 
-guss = input("ჩაწერე კოდი")
+guss = input("ჩაწერე კოდი: ")
 
 print(guss == pasvord)
