@@ -20,9 +20,9 @@ for i in range(50, 100, 2):
 name = "demetre"
 
 for i in range(0, len(name), 2):
-    print(name[i])
+     print(name[i])
 
 #for loop-ის საშვალებით გამოიტანეთ ყველა რიცხვი 50-იდან 100-მდე უკუღმა
 
 for i in range(100, 50, -1):
-    print(i)
+     print(i)
