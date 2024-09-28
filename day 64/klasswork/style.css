@@ -1,0 +1,51 @@
+body{
+   background-color:  rgb(0, 0, 0);
+}
+p{
+    font-size: 50px;
+    width: 500px;
+    height: 100px;
+}
+
+#p1{
+    background-color: green;
+    color: blue;
+}
+#p2{
+    background-color: rgb(107, 53, 39);
+    color: rgb(29, 29, 96);
+}
+#p3{
+    background-color: greenyelow;
+    color: blueviolet;
+}
+#p4{
+    background-color: rgb(111, 0, 128);
+    color: rgb(251, 0, 255);
+}
+#p5{
+    background-color: darkcyan;
+    color: darkblue;
+}
+#p6{
+    background-color: darkgray;
+    color: darkred;
+}
+#p7{
+    background-color: darkorange;
+    color: darkmagenta;
+}
+#p8{
+    background-color: darkgoldenrod;
+    color: darkorchid;
+}
+#p9{
+    background-color: darkcyan;
+    color: darkblue;
+}
+#p10{
+    background-color: darkcyan;
+    color: darkolivegreen;
+}
+
+
