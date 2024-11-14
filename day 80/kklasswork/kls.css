@@ -1,0 +1,20 @@
+/* 2) დაწერეთ თქვენი სახელი და გვარი 5ჯერ ისე რომ ხუთივე სახელი იყოს განსხვავებული ფონტის გამოიყენეთ 5 ძირითადი ფონტი, აუცილებელია ხუთივე იყოს გამოყენებული */
+
+p{
+    font-size: 50px;
+}
+.p1{
+    font-family: serif;
+}
+.p2{
+    font-family: sans-serif;
+}
+.p3{
+    font-family: monospace;
+}
+.p4{
+    font-family: fantasy;
+}
+.p5{
+    font-family: cursive;
+}
