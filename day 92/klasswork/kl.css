@@ -1,0 +1,23 @@
+/*
+1) შექმენით ვებსაიტი, სადაც გექნებათ 3 ღილაკი. თითო ღილაკს მიეცით სხვადასხვანაირი ჩარჩო. ასევე 5px-ით უნდა იყოს დაშორებული ერთმანეთისგან ღილაკები, ასევე მიეცით სხვადასხვანაირი padding-ი 
+ */
+div{
+    color: burlywood;
+    border: groove;
+    margin-left: -9px;
+}
+.b1{
+    color: aqua;
+    border: solid;
+    margin-right: -9px;
+}
+.b2{
+    color: greenyellow;
+    border: outset;
+    margin-right: -9px;
+}
+.b1{
+    color: azure;
+    border: ridge;
+    margin-right: -9px;
+}

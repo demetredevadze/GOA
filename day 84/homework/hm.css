@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Phetsarath:wght@400;700&display=swap');
+.p1{
+    font-family: "Phetsarath", serif;
+}@import url('https://fonts.googleapis.com/css2?family=Phetsarath:wght@400;700&family=Playwrite+NL+Guides&display=swap');
+.p2{
+    font-family: "Phetsarath", serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Phetsarath:wght@400;700&family=Playwrite+DE+VA+Guides&family=Playwrite+NL+Guides&display=swap');
+.p3{
+    font-family: "Phetsarath", serif;
+}
+h1{
+    font-family: sans-serif;
+}
+.s{
+    font-family: serif;
+}
+.p6{
+    font-family: serif;
+}
+.p7{
+    font-family: monospace;
+}
