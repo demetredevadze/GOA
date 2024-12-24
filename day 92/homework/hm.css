@@ -1,0 +1,25 @@
+div{
+    color: burlywood;
+    border: groove;
+    margin-left: -9px;
+}
+.b1{
+    color: aqua;
+    border: solid;
+    margin-right: -9px;
+}
+.b2{
+    color: greenyellow;
+    border: outset;
+    margin-right: -9px;
+}
+.b1{
+    color: azure;
+    border: ridge;
+    margin-right: -9px;
+}
+.d{
+    color: coral;
+    border: ridge;
+    font-size: 50%;
+}
