@@ -1,0 +1,433 @@
+<!-- Level 94:
+
+1) შექმენით საიტი, სადაც გექნებათ 1 დივი. ამ დივში იქნება მოთავსებული 5 დივი, გამოიყენეთ flex-ი რომ იყოს დალაგებული y ღერძზე. სტილი მიეცით როგორიც მოგინდებათ
+
+2) გააკეთეთ 1-ი დავალების მზგავსი რამ, მაგრამ დივები უნდა იყოს განლაგებული x ღერძზე
+
+3) შექმენით საიტი, სადაც გექნებათ 3 დივი. თითო დივში იქნება მოთავსებული 10 დივი, დასაწყისი 5 დივი უნდა იყოს განლაგებული x ღერძზე და ბოლო 5 კი y ღერძზე, გამოიყენეთ flex-ი განლაგებისთვის
+
+4) გააკეთეთ 3-მე დავალების მზგავსი რამ, მაგრამ დასაწყისი 5 დივი უნდა იყოს განლაგებული y ღერძზე და ბოლო 5 კი x ღერძზე
+
+5) შექმენით საიტი, სადაც გექნებათ 1 დივი. ამ დივში იქნება მოთავსებული 3 დივი, გამოიყენეთ flex-ი რომ დალაგებული იყოს ეს დივები x ღერძზე მაგრამ შემობრუნებულად
+
+6) გააკეთეთ 5-ე დავალების მზგავსი რამ, მაგრამ უნდა იყოს y ღერძზე შემობრუნებულად
+
+7) შექმენით საიტი, სადაც გექნებათ 5 დივი. თითო დივში უნდა იყოს მოთავსებული 3 დივი, გამოიყენეთ flex-ი რომ იყოს განლაგებული სივრცის გარშემო ეს 3 დივი. ბოლო დივზე კი გაცენტრებული
+
+8) ახსენით თქვენი სიტყვებით რა არის flex box, გამოიყვანეთ მაგალითები და დაუწერეთ კომენტარები
+
+9) ახსენით თქვენი სიტყვებით რა არის flex-ი, გამოიყვანეთ მაგალითები და დაუწერეთ კომენტარები
+
+10) დღევანდელი ნასწავლი მასალით, შექმენით სარეგისტრაციო ფორმა. უნდა იყოს 3 ცალი შესაყვანი ველები: სახელი, გვარი და ასაკი. არ დაგავიწყდეთ ბოლოში ღილაკი რომ დაადასტუროს მომხმარებლის შეყვანილი მონაცემები. გამოიყენეთ flex-ი რომ გაცენტროთ სარეგისტრაციო ფორმა -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hm.css">
+    <!-- 1 -->
+</head>
+<body>
+    <div>
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+    </div>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h1.css">
+    <!-- 2 -->
+</head>
+<body>
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h2.css">
+    <!-- 3 -->
+</head>
+<body>
+    <div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+        <div class="divv">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h3.css">
+    <!-- 4 -->
+</head>
+<body>
+    <div>
+    <div class="div">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        <div class="d7">7</div>
+        <div class="d7">8</div>
+        <div class="d9">9</div>
+        <div class="d10">10</div>
+    </div>
+    <div class="divv">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        <div class="d7">7</div>
+        <div class="d7">8</div>
+        <div class="d9">9</div>
+        <div class="d10">10</div>
+    </div>
+    <div class="div">
+        <div class="d1">1</div>
+        <div class="d2">2</div>
+        <div class="d3">3</div>
+        <div class="d4">4</div>
+        <div class="d5">5</div>
+        <div class="d6">6</div>
+        <div class="d7">7</div>
+        <div class="d7">8</div>
+        <div class="d9">9</div>
+        <div class="d10">10</div>
+    </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h4.css">
+    <!-- 5 -->
+</head>
+<body>
+    <div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+        <div class="divv">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+            <div class="d6">6</div>
+            <div class="d7">7</div>
+            <div class="d7">8</div>
+            <div class="d9">9</div>
+            <div class="d10">10</div>
+        </div>
+    </div>
+    
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="h5.css">
+        <!-- 6 -->
+    </head>
+    <body>
+        <div>
+            <div class="div">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+                <div class="d3">3</div>
+                <div class="d4">4</div>
+                <div class="d5">5</div>
+                <div class="d6">6</div>
+                <div class="d7">7</div>
+                <div class="d7">8</div>
+                <div class="d9">9</div>
+                <div class="d10">10</div>
+            </div>
+            <div class="divv">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+                <div class="d3">3</div>
+                <div class="d4">4</div>
+                <div class="d5">5</div>
+                <div class="d6">6</div>
+                <div class="d7">7</div>
+                <div class="d7">8</div>
+                <div class="d9">9</div>
+                <div class="d10">10</div>
+            </div>
+            <div class="div">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+                <div class="d3">3</div>
+                <div class="d4">4</div>
+                <div class="d5">5</div>
+                <div class="d6">6</div>
+                <div class="d7">7</div>
+                <div class="d7">8</div>
+                <div class="d9">9</div>
+                <div class="d10">10</div>
+            </div>
+            <div class="divv">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+                <div class="d3">3</div>
+                <div class="d4">4</div>
+                <div class="d5">5</div>
+                <div class="d6">6</div>
+                <div class="d7">7</div>
+                <div class="d7">8</div>
+                <div class="d9">9</div>
+                <div class="d10">10</div>
+            </div>
+            <div class="div">
+                <div class="d1">1</div>
+                <div class="d2">2</div>
+                <div class="d3">3</div>
+                <div class="d4">4</div>
+                <div class="d5">5</div>
+                <div class="d6">6</div>
+                <div class="d7">7</div>
+                <div class="d7">8</div>
+                <div class="d9">9</div>
+                <div class="d10">10</div>
+            </div>
+        </div>
+
+    </body>
+    </html>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h6.css">
+    <!-- 7 -->
+</head>
+<body>
+    <div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+        </div>
+        <div class="divv">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+        </div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+        </div>
+        <div class="divv">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+        </div>
+        <div class="div">
+            <div class="d1">1</div>
+            <div class="d2">2</div>
+            <div class="d3">3</div>
+            <div class="d4">4</div>
+            <div class="d5">5</div>
+        </div>
+    </div>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="h7.css">
+    <!-- 8 -->
+</head>
+<body>
+        <!-- flexbox
+         
+        display: flex; არის ბრძანება რომელიც ააქტიურებს flexbox-ის "სისტემას"
+        flexbox  აქვს რამდენიმე ბრძანება ესენიია - flex-direction ; jastify-content ; align-items ; flex-wrap.-->
+
+        <!-- flex-direction
+
+         row(defoult) ელემენტები მარცხნიდან მარჯვნივ
+         row-reverse- ელემენტები მარჯვნიდან მარცხვნივ
+         column- ელემენტები ზევიდან ქვევით
+         column-reverse ელემენტები ქვევიდან ზევით -->
+
+         <!-- jastify-content განლაგება x ღერძზე
+          
+         flex-start ელემენტი მარცხნივ
+         flex-end ელემენტები მარჯვნივ
+         center ელემენტები ცენტრში
+         space-between ელემენტების შორის სივრცე ნაწილდება თანაბრად
+         space-around ელემენტები და ელემენტების გარეთ სივრცე თანაბრად-->
+
+
+         <!-- align-items განალაგებს y გაღერძზე 
+         flex-start ელემენტი მარცხნივ
+         flex-end ელემენტები მარჯვნივ
+         center ელემენტები ცენტრში-->
+
+         <!-- flex-wrap  
+          
+         nowrap (defoult)
+         wrap ელემენტები გადადიან ახალ ხაზზე როცა ადგილი არ ყოფნის 
+         wrap-reverse ელემენტები გადადიან ახალ ხაზზე უკუღმა ზემოდან ზევით
+         -->
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 9 -->
+</head>
+<body>
+    <!--         display: flex; არის ბრძანება რომელიც ააქტიურებს flexbox-ის "სისტემას"
+              -->
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 10 -->
+<body>
+    <input type="text" placeholder="your name and last name">
+    <br>
+    <input type="number" placeholder="age">
+    <br>
+    <input type="email" placeholder="email">
+    <br>
+    <input type="checkbox">
+    <input type="submit">
+</body>
+</html>

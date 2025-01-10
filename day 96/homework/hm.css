@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+bode{
+    font-family: sans-serif;
+    background-color: #b8e1ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.qr-code img{
+    width: 100%;
+    border-radius: 20%;
+}
+.main-div{
+    width: 350px;
+    height: 530px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px 20px;
+}
+.text-div h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+.text-div p {
+    font-size: 18px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0, 516);
+    margin-top: 25px;
+}

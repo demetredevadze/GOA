@@ -1,0 +1,52 @@
+div{
+    display: flex;
+    justify-content: center;
+}
+.div{
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    color: #008000;
+    width: 40px;
+    height: 60px;
+}
+.d1{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    background-color: blue;
+}
+.d2{
+    color: rgba(0, 255, 183, 0.508);
+    background-color: rgb(43, 137, 226);
+}
+.d3{
+    display: flex;
+    justify-content: flex-end;
+    color: blue;
+    background-color: blueviolet;
+}
+.divv{
+    display: flex;
+    align-items: flex-start;
+    background-color: greenyellow;
+    color: #008000;
+    width: 40px;
+    height: 60px;
+}
+.d6{
+    display: flex;
+    align-items: center;
+    color: aqua;
+    background-color: blue;
+}
+.d8{
+    color: rgba(0, 255, 183, 0.508);
+    background-color: rgb(43, 137, 226);
+}
+.d10{
+    display: flex;
+    align-items: flex-end;
+    color: blue;
+    background-color: blueviolet;
+}

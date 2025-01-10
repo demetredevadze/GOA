@@ -1,0 +1,53 @@
+div{
+    display: flex;
+    align-items: center;
+}
+.divv{
+    display: flex;
+    align-items: flex-start;
+    background-color: greenyellow;
+    color: #008000;
+    width: 40px;
+    height: 60px;
+}
+.d5{
+    display: flex;
+    align-items: center;
+    color: aqua;
+    background-color: blue;
+}
+.d3{
+    color: rgba(0, 255, 183, 0.508);
+    background-color: rgb(43, 137, 226);
+}
+.d1{
+    display: flex;
+    align-items: flex-end;
+    color: blue;
+    background-color: blueviolet;
+}
+
+.divv{
+    display: flex;
+    align-items: flex-start;
+    background-color: greenyellow;
+    color: #008000;
+    width: 40px;
+    height: 60px;
+}
+.d5{
+    display: flex;
+    align-items: center;
+    color: aqua;
+    background-color: blue;
+}
+.d3{
+    color: rgba(0, 255, 183, 0.508);
+    background-color: rgb(43, 137, 226);
+}
+.d1{
+    display: flex;
+    align-items: flex-end;
+    color: blue;
+    background-color: blueviolet;
+}

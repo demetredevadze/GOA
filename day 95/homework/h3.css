@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Phetsarath:wght@400;700&family=Playwrite+DE+VA+Guides&family=Playwrite+NL+Guides&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+    font-family: sans-serif;
+}
+
+
+h1{
+    position: relative;
+    font-family: "Dancing Script", serif;
+    font-size: 60px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+}
+ul{
+    list-style-type: none;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bx{
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+}
+h1 .cadi{
+    width: 30px;
+    top: -20px;
+    height: -4px;
+    position: absolute;
+
+}
+h1 .virgin{
+    bottom: 0px;
+    left: 52%;
+    transform: rotateY(180deg);
+    width: 5px;
+    position: absolute; 
+}
