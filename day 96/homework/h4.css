@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.main-div{
+    background-color: #1f1f1f;
+    border-radius: 15px;
+    width: 425px;
+    height: 600px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+main-div img{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+
+
+main-div h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.pirveli-p{
+    color: greenyellow;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.meore-p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.813);
+}
+
+link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.button{
+    text-decoration: none;
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+}

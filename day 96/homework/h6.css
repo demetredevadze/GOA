@@ -51,3 +51,11 @@ div{
     color: blue;
     background-color: blueviolet;
 }
+.divv:hower{
+    display: flex;
+    align-items: flex-start;
+    background-color: greenyellow;
+    color: #008000;
+    width: 20px;
+    height: 40px;
+}

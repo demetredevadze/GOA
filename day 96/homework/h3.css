@@ -1,0 +1,30 @@
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+
+
+.p1{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    background-color: royalblue;
+}
+
+.p2{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    background-color: teal;
+}
+
+.p3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: orchid;
+}
