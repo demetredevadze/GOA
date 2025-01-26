@@ -1,0 +1,60 @@
+.d1{
+    color: blue;
+    height: 70px;
+    width: 90px;
+}
+.d2{
+    position: relative;
+    color: blueviolet;
+    height: 70px;
+    width: 90px;
+    right: 25px;
+}
+.d3{
+    position: relative;
+    color: #2be262;
+    height: 70px;
+    width: 90px;
+    right: 50px;
+}
+.d4{
+    position: relative;
+    color: #2b43e2;
+    height: 70px;
+    width: 90px;
+    right: 75px;
+}
+.d5{
+    position: relative;
+    color: #e22b43;
+    height: 70px;
+    width: 90px;
+    right: 100px;
+}
+.d6{
+    position: relative;
+    color: #e2d02b;
+    height: 70px;
+    width: 90px;
+    right: 75px;
+}
+.d7{
+    position: relative;
+    color: #4ce22b;
+    height: 70px;
+    width: 90px;
+    right: 50px;
+}
+.d8{
+    position: relative;
+    color: #e2932b;
+    height: 70px;
+    width: 90px;
+    right: 25px;
+}
+.d9{
+    position: relative;
+    color: #2be2d6;
+    height: 70px;
+    width: 90px;
+}
