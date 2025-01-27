@@ -1,0 +1,12 @@
+body{
+    background-image: url(saqartvelo.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.p1{
+    position: relative;
+    right: 0px;
+}

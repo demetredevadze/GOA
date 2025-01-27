@@ -1,0 +1,7 @@
+header p{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+}
