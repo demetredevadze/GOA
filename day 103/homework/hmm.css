@@ -1,0 +1,6 @@
+div{
+    display: flex;
+    justify-content: center;
+    background-color: #7fff88;
+    height: 100vh;
+}

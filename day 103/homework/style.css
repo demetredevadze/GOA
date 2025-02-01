@@ -1,0 +1,25 @@
+.biggest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.pp{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+}
+button{
+    border-radius: 20px;
+}
+.big{
+    background-color: #006970;
+    padding: 20px;
+    border-radius: 5px;
+}
+.bigg{
+    background-color: rgb(0, 66, 65);
+    padding: 20px;
+    border-radius: 5px;
+}
