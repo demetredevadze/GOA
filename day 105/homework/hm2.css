@@ -1,0 +1,32 @@
+.d1{
+    width: 35px;
+    height: 20px;
+    background-color: blue;
+}
+.d1:hover{
+    transform: translateX(2);
+}
+.d2{
+    width: 40px;
+    height: 35px;
+    background-color: aqua;
+}
+.d2:hover{
+    transform: translateY(2);
+}
+.d3{
+    width: 50px;
+    height: 30px;
+    background-color: aquamarine;
+}
+.d3:hover{
+    transform: translateX(3);
+}
+.d4{
+    width: 40px;
+    height: 37px;
+    background-color: blueviolet;
+}
+.d4:hover{
+    transform: translateY(3);
+}

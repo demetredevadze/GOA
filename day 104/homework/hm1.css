@@ -1,0 +1,45 @@
+big{
+    margin: 20px;
+}
+
+body{
+    background-color: #bbbbbb;
+}
+
+.div1{
+    padding: 10px;
+    color: #bbbbbb;
+    background-color: white;
+    width: 310px;
+    height: 500px;
+    border-radius: 10px;
+}
+.p1{
+    width: 310px;
+    height: 250px;
+}
+button{
+    width: 310px;
+    height: 35px;
+}
+.div2{
+    padding: 10px;
+    color: #bbbbbb;
+    background-color: white;
+    width: 310px;
+    height: 500px;
+    border-radius: 10px;
+    transform: translateX(600px) translateY(-519px);
+}
+.div3{
+    padding: 10px;
+    color: #bbbbbb;
+    background-color: white;
+    width: 310px;
+    height: 500px;
+    border-radius: 10px;
+    transform: translateX(1160px) translateY(-1040px);
+}
+.p2{
+    transform: translateY(55px);
+}

@@ -1,0 +1,88 @@
+.big{
+    display: flex;
+    align-items: center;
+}
+.div1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+     background-color: aqua;
+}
+.div2{
+     display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.div3{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #006241;
+}
+.div4{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #0048ff;
+}
+.div5{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #00ff0d;
+}
+.div6{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #ff0099;
+}
+.div7{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #8cff00;
+}
+.div8{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #1100ff;
+}
+.div9{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #ff0000;
+}
+.div10{
+    display: flex;
+   width: 100px;
+   height: 100px;
+   align-items: center;
+   background-color: #00c3ff;
+}
+.div1:hover{
+    display: flex;
+    align-items: center;
+    transform: 5s;
+    height: 300px;
+    width: 300px;
+}
+.div2:hover:hover{
+    display: flex;
+    align-items: center;
+    transform: 5s;
+    height: 300px;
+    width: 300px;
+}

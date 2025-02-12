@@ -1,0 +1,29 @@
+.big_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    transform: scale(1.5);
+}
+
+.p1{
+    background-color: aquamarine;
+    transform: scale(1.7) translate(-135) skew(20deg) rotate(35deg);
+}
+.p2{
+    transform: scale(1.2) translate(-115) skew(15deg) rotate(25deg);
+}
+.p3{
+    background-color: blue;
+    transform: scale(1.1) translate(-105) skew(22deg) rotate(33deg);
+}
+.p4{
+    background-color: black;
+    transform: scale(1) translate(-100) skew(10deg) rotate(5deg);
+}
+.p5{
+    background-color: blueviolet;
+    transform: scale(2) translate(-122) skew(28deg) rotate(30deg);
+}
+/* 2) შექმენთ 5 დივი, დღევანდელი ნასწავლი მასალა გატესტეთ ამ ყველა დივზე (translate, skew, rotate and scale) */

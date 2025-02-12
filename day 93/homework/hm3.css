@@ -5,23 +5,26 @@
 
    3)  შექმენით მესამე მზგავსი დივი მზგავსი ელემენტებით და განალაგეთ flex ის გამოყენებით ვერტიკალურად და თან შემოაბრუნეთ 
 
-    4) შექმენით მეოთხე მზგავსი დივი მზგავსი ელემენტებით და განალაგეთ flex ის გამოყენებით ჰორიზონტალურად და თან შემოაბრუნეთ */
+    4) შექმენით მეოთხე მზგავსი დივი მზგავსი ელემენტებით და განალაგეთ flex ის გამოყენეთ ჰორიზონტალურად და თან შემოაბრუნეთ */
 
 .big{
     display: flex;
+    justify-content: center;
     align-items: center;
-}
-.div1{
-    display: flex;
-    width: 100px;
-    height: 100px;
-    align-items: center;
-    background-color: aqua;
 }
 .div2{
     display: flex;
     width: 100px;
     height: 100px;
+    justify-content: center;
+    align-items: center;
+     background-color: aqua;
+}
+.div1{
+     display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
     align-items: center;
     background-color: aquamarine;
 }

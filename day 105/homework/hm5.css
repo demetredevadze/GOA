@@ -1,0 +1,17 @@
+.d1{
+    width: 90px;
+    height: 100px;
+    background-color: #008000;
+}
+.d1:hover{
+    transform: skewY(50deg) 5s ;
+}
+
+.d2{
+    width: 90px;
+    height: 100px;
+    background-color: #02070248;
+}
+.d2:hover{
+    transform: skewY(70deg) 5s ;
+}

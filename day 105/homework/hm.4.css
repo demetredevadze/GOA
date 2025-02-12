@@ -1,0 +1,20 @@
+.d1{
+    background-color: aqua;
+    width: 100px;
+    height: 80px;
+}
+.d1:hover{
+    transform: rotate(50deg);
+    background-color: aquamarine;
+    transform: 2s;
+}
+.d2{
+    width: 110px;
+    height: 80px;
+    background-color: #4f310b8b;
+}
+.d1:hover{
+    transform: rotate(70deg);
+    background-color: #ffe0558b;
+    transform: 2s;
+}

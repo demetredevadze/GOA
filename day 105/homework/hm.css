@@ -1,0 +1,32 @@
+.d1{
+    width: 235px;
+    height: 220px;
+    background-color: blue;
+}
+.d1:hover{
+    transform: scale(2);
+}
+.d2{
+    width: 200px;
+    height: 185px;
+    background-color: aqua;
+}
+.d2:hover{
+    transform: scale(2);
+}
+.d3{
+    width: 150px;
+    height: 120px;
+    background-color: aquamarine;
+}
+.d3:hover{
+    transform: scale(2);
+}
+.d4{
+    width: 400px;
+    height: 380px;
+    background-color: blueviolet;
+}
+.d4:hover{
+    transform: scale(2);
+}
