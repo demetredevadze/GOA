@@ -1,0 +1,25 @@
+body{
+    background-image: url(C.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+button{
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+.dd{
+    padding: 15px;
+    background-color: black;
+    width: 250px;
+    height: 290px;
+
+}
+.d1{
+    background-color: white;
+    width: 255px;
+    height: 300px;
+}

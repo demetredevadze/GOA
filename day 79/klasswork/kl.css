@@ -1,0 +1,25 @@
+p{
+    font-size: 40px;
+}
+.p{
+    text-align: right;
+    text-decoration: underline dotted green; 
+
+    
+}
+.p1{
+    text-align: center;
+    text-decoration: underline;
+}
+.p2{
+    text-decoration: overline;
+}
+.p3{
+    color: darkgray;
+    text-align: center;
+    text-decoration: overline darkgray;
+}
+.p4{
+    text-align: right;
+    text-decoration: underline dotted green;
+}

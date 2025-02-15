@@ -1,0 +1,17 @@
+/* <!-- 2 ) text - decoration ის line-through ახსენით კომენტარებ რას შვება 
+    3 ) text - decoration ის overline ახსენით კომენტარებ რას შვება 
+    3 )  text - decoration ის dotted ახსენით კომენტარებ რას შვება 
+    4 )  text - decoration ის solid ახსენით კომენტარებ რას შვება   
+    6 )  text - decoration ის double ახსენით კომენტარებ ტრა შვება 
+    7 ) ახენით რას შვება b er i strong  და რა განსხვავებაა ერთმანეთისგან --> */
+
+
+.p{
+    text-decoration: dotted blue;
+}
+.p1{
+    text-decoration: line-through red;
+}
+.p3{
+    text-decoration: double green;
+}
