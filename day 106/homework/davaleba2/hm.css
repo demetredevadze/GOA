@@ -1,0 +1,23 @@
+.d1{
+    height: 200px;
+    width: 280px;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+}
+.d11{
+    background-color: #3cc7c7;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
