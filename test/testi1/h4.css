@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, #1515fd, #02ff02);
+    background: linear-gradient(to right, #000000, #0A5EB0);
 }
 .big{
     transform: translateX(350px) translateY(40px);
@@ -36,7 +36,7 @@ body{
 .input{
     border: 3px solid rgb(0, 0, 0);
     border-radius: 12px;
-    background: linear-gradient(to right, #1515fd, #02ff02);
+    background: linear-gradient(to right, #000000, #0A5EB0);
 }
 hr{
     background-color: #000000;
@@ -47,7 +47,7 @@ hr{
     opacity: 100%; 
 }
 button{
-    background: linear-gradient(to right, #1515fd, #02ff02);
+    background: linear-gradient(to right, #000000, #0A5EB0);
     border-radius: 12px;
 
 }

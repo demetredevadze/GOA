@@ -72,7 +72,8 @@ video{
     height: 300px;
 }
 button{
-    background: linear-gradient(to right, #ff00ee, #1edf04);
+    background: linear-gradient(to right, #3D3D3D
+,  #578E7E);
     color: #ffffffff;
     border-radius: 12px;
 }

@@ -1,5 +1,5 @@
-body{
-    background: linear-gradient(to right, #000000, #dd00ff);
+body{    background: linear-gradient(to right, #000000, #0A5EB0);
+
 }
 
 .h1{
@@ -71,7 +71,7 @@ video{
     height: 300px;
 }
 button{
-    background: linear-gradient(to right, #ff00ee, #1edf04);
+    background: linear-gradient(to right, #000000, #0A5EB0);
     color: #ffffffff;
     border-radius: 12px;
 }
