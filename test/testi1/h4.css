@@ -1,0 +1,70 @@
+body{
+    background: linear-gradient(to right, #1515fd, #02ff02);
+}
+.big{
+    transform: translateX(350px) translateY(40px);
+    height: 650px;
+    width: 650px;
+    border: 10px solid #000000;
+    border-radius: 10px;
+    font-family: cursive;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    Flex-direction: column;
+}
+.container:active {
+    width: 100%;
+    background-color: rgb(143, 142, 142);
+    border-radius: 12px;
+    height: 20px;
+}
+.loadingDiv:active {
+    border-radius: 12px;
+    width: 2%;
+    height: 100%;
+    background-color: red;
+    animation: loadingBar 6s linear forwards;
+}
+.loadingDiv{
+    transform: translateY(-2px);
+}
+.hh{
+    font-size: 2px;
+}
+.input{
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 12px;
+    background: linear-gradient(to right, #1515fd, #02ff02);
+}
+hr{
+    background-color: #000000;
+    height: 5px;
+    width: 650px;
+}
+.hh{
+    opacity: 100%; 
+}
+button{
+    background: linear-gradient(to right, #1515fd, #02ff02);
+    border-radius: 12px;
+
+}
+@keyframes loadingBar {
+    0% {
+        .loading123{
+            width: 50px;
+            height: 30px;
+        }
+        width: 0%;
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        width: 100%;
+        background-color: green;
+    }
+}
