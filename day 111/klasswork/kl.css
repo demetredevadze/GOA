@@ -1,0 +1,13 @@
+body{
+    background-image: url('https://mngauto.lv/wp-content/uploads/2024/09/WhatsApp-Image-2024-09-12-at-10.51.20-scaled.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #0000ff;
+}

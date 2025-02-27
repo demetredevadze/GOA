@@ -1,0 +1,41 @@
+.p1{
+    color: #7fffd4;
+    text-shadow: 5px 5px 8px #0000ff;
+}
+.p1:hover{
+    color: #0000ff;
+    transition: 4s;
+    text-shadow: 5px 5px 8px #7fffd4;
+}
+.p1:active{
+    font-size: 2rem;
+    transition: 4s;
+}
+.p2{
+    color: #0000ff;
+    text-shadow: 5px 5px 8px #7fffd4;
+}
+.p2:hover{
+    color: #7fffd4;
+    transition: 4s;
+    text-shadow: 5px 5px 8px #0000ff;
+}
+.p2:active{
+    font-size: 2rem;
+    transition: 4s;
+}
+
+.big{
+    height: 15rem;
+    width: 15rem;
+    background-color: #0000ff;
+    border-radius: 10px;
+}
+.big h1 {
+    color: aquamarine;
+    text-shadow: 5px 5px 10px #00ffaa;
+}
+.big p {
+    color: #00ffaa;
+    text-shadow: 5px 5px 10px #7fffd4;
+}

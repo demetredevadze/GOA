@@ -1,0 +1,20 @@
+body{
+    background-image: url(begemot.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #0000ff;
+}
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #0000ff;
+}
