@@ -1,3 +1,46 @@
 .img{
-    transform: translatey(39px);
+    transform: translateX(-6rem) translateY(5rem);
+    height: 50px;
+    width: 60px;
+}
+i{
+    color: aqua;
+}
+.d2{
+    transform: translateX(20rem);
+}
+.dd{
+        background-image: url(background.PNG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        text-align: center;
+        color: white;
+        height: 18rem;
+}
+.big{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+.d1{
+    transform: translateX(-23rem) translateY(24.5rem);
+}
+.d2{
+    transform: translateX(3rem) translateY(7.7rem);
+}
+.d3{
+    transform: translateX(26rem) translateY(-8rem);
+}
+.d4{
+    transform: translateY(-9.7rem) translateX(-23rem);
+}
+.d5{
+    transform: translateX(3rem) translateY(-24rem);
+}
+.d6{
+    transform: translateX(26rem) translateY(-40.7rem);
 }

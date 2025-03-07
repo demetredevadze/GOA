@@ -32,7 +32,7 @@ header{
 }
 .big{
     transform: translateX(350px);
-    height: 650px;
+    height: 700px;
     width: 650px;
     border: 10px solid #000000;
     border-radius: 10px;
@@ -67,7 +67,7 @@ main h2{
     transform: translateX(3%);
 }
 video{
-    transform: translateX(16%) translateY(-92px);
+    transform: translateX(16%) translateY(-78px);
     width: 550px;
     height: 300px;
 }

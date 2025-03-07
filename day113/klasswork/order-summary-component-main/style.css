@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.img{
+    max-width: 100%;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #3829e0;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner{
+    background-color: white;
+    width: 450px;
+    border-radius: 1rem;
+}
+.card_conteiner{
+    display: flex;
+    flex-direction: column;
+}
+.header img {
+    border-radius: 1rem 1rem 0 0;
+}
+.main{
+    display: flex;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.title{
+    color: #1f2f56;
+}
+.content{
+    color: #7280a7;
+    font-weight: 500;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f7ff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.img div{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.img_info b {
+    color: #1f2f56;
+}
+.img_info span {
+    color: #7280a7;
+}
+.link{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #3829e0;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+
+}
+.btns button {
+    padding: .5rem;
+    border-radius: .5rem;
+    border: none;
+}
+.pay-btn{
+    background-color: #3829e0;
+    color: white;
+}
+.pay-btn:hover{
+    opacity: 75%;
+}
+.Cancel-btn{
+    background-color: white;
+    font-weight: 700;
+}
