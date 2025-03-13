@@ -1,0 +1,10 @@
+.big{
+    background-color: black;
+    height: 700px;
+    width: 1000px;
+}
+.big div {
+    background-color: red;
+    height: 350px;
+    width: 500px;
+}
