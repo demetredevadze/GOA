@@ -1,0 +1,31 @@
+div div div{
+    background-color: black;
+}
+.parent{
+    display: flex;
+    gap: 3px;
+}
+
+.parent2 div{
+    height: 371px;
+    width: 300px;
+}
+.parent1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.parent3 div{
+    height: 121px;
+    width: 300px;
+}
+.parent3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.perent0 div{
+    display: flex;
+    height: 700px;
+    width: 300px;
+}

@@ -1,0 +1,70 @@
+body{
+    display: flex;
+}
+.perent {
+    display: flex;
+    gap: 15px;
+    flex-direction: row; 
+    position: relative; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div1{
+    width: 490px;
+    height: 350px;
+    background-color: #35f435;
+}
+.div1 p{
+    padding: 20px;
+}
+.div2{
+    width: 400px;
+    height: 755px;
+    background-color: #0000ff;
+    position: absolute;
+    top: 0.37em;
+    left: 31.6em;
+}
+.p{
+    display: flex;
+    justify-content: center;
+}
+.person{
+    display: flex;
+    width: 242px;
+    height: 210px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3px;
+    position: absolute;
+    left: 0px;
+    top: 366px;
+}
+.person  .div6{
+    width: 242px;
+    height: 105px;
+    background-color: #8a2be2;
+}
+p{
+    padding: 20px;
+    text-align: center;
+}
+.div3{
+    background-color: aqua;
+}
+.div4{
+    background-color: gray;
+    height: 200px;
+    width: 245px;
+    position: absolute;
+    left: 15.3em;
+    top: 370px;
+}
+.div5{
+    width: 495px;
+    height: 190px;
+    background-color: brown;
+    position: absolute;
+    top: 36em;
+}

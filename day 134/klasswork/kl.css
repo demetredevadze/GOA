@@ -1,0 +1,25 @@
+.parent{
+    display: flex;
+    gap: 3px;
+}
+
+.parent2 img{
+    height: 371px;
+}
+.parent1{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.parent3 img{
+    height: 121px;
+}
+.parent3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+.perent0 img{
+    display: flex;
+    height: 700px;
+}
