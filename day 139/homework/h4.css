@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.parent1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.parent2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.parent3{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.d1{
+    background-color: darkred;
+    width: 720px;
+    height: 300px;
+    border-radius: 60px;
+}
+.d2{
+    background-color: orange;
+    width: 300px;
+    height:300px;
+    border-radius: 50%;
+}
+.d3{
+    background-color: yellow;
+    width: 400px;
+    height:300px;
+}
+.d4{
+    background-color: purple;
+    width: 500px;
+    height: 200px;
+    border-radius: 60px;
+
+}
+.d5{
+    background-color: grey;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+.Main{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
