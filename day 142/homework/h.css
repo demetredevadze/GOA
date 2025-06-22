@@ -1,0 +1,22 @@
+.face{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.eye{
+    display: flex;
+}
+.eye p {
+    font-size: 99.9px;
+    margin: 80px;
+}
+.mouth p {
+    width: 210px;
+    height: 190px;
+    border-bottom: 9px solid black;
+    border-radius: 50%;
+    background-color: yellow;
+    margin-left: 145px;
+    margin-top: -40px;
+}
