@@ -1,0 +1,77 @@
+body{   
+     background: linear-gradient(to right, green, blue);
+}
+
+.h1{
+    transform: translateX(0.1%) translateY(-5px);
+    color: green;
+    display: inline;
+    font-family: cursive;
+}
+.img{
+    height: 60px;
+    width: 65px;
+    border-radius: 50%;
+    display: inline;
+    transform: translateX(3%);
+}
+.imgff{
+    width: 10px;
+    height: 10px;
+}
+.imgff:hover{
+    height: 60px;
+    width: 65px;
+    transition: 5s;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big{
+    transform: translateX(350px);
+    height: 1170px;
+    width: 650px;
+    border: 10px solid #000000;
+    border-radius: 10px;
+}
+hr{
+    background-color: #000000;
+    height: 5px;
+    width: 650px;
+}
+.h11{
+ transform: translateX(1%);
+ color: green;
+ display: block;
+ font-family: cursive;
+}
+.imgf{
+    height: 70px;
+    width: 85px;
+    border-radius: 20%;
+    transform: translateX(625%) translateY(-80px);
+}
+main h2{
+    transform: translateY(-50px);
+    color: #d8600a;
+    font-family: cursive;
+}
+.imggggggg{
+    height: 60px;
+    width: 65px;
+    border-radius: 50%;
+    display: inline;
+    transform: translateX(3%);
+}
+video{
+    transform: translateX(22%) translateY(-92px);
+    width: 550px;
+    height: 300px;
+}
+button{
+    background: linear-gradient(to right, #000000, #0A5EB0);
+    color: #ffffffff;
+    border-radius: 12px;
+}

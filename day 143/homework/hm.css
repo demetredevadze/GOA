@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.food{
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 100px;
+    width: 36rem;
+    background: url("https://discord.com/channels/1076577844475482142/1268246032836198420/1388541962063315139");
+    background-repeat: no-repeat;
+    background-position: 240px 45px;
+
+}
+.food h2, .plant h2, .detox h2 { 
+    font-size: 2rem;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    border-radius: 15px;
+}
+.food h2 span, .plant h2 span,.detox h2 span {
+    font-size: 14px;
+    opacity: 50%;
+    text-transform: #fff;
+}
+.food button, .plant button , .detox button{
+    padding: 13px 35px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 70px;
+    border: none;
+    color: hsl(174, 21%, 51%);
+}
+.food-bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36rem;
+    height: 309px;
+    z-index: -1;
+    background: linear-gradient(to right, hsl(175, 27%, 60%), hsl(180, 16%, 86%));
+    border-radius: 15px;
+}
+.plant{
+    width: 17rem;
+    background: linear-gradient(to bottom, #37a3c4, white);
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+}
+.plant img{
+    width: 150px;
+    align-self: flex-end;
+    z-index: 2;
+    margin-top: 30px;
+}
+.plant button{
+    z-index: 2;
+    color: #37a3c4;
+}
+.bottom-bg{
+    position: absolute;
+    background-color: #ccdfea;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+}
+.plant-detox-section{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.detox{
+    background-color: #fd9da0 #f2d5d7;
+    background: linear-gradient(to bottom, #fd9da0, #f2d5d7, #fd9da0 );
+    width: 19rem;
+    padding: 30px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.detox img{
+    position: absolute;
+    width: 350px;
+    left: 0;
+}
+
+.detox button{
+    z-index: 3;
+    color: #fd9da0 #f2d5d7;
+}
