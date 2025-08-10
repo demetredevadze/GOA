@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // მომხმარებელს შემოატანინეთ რიცხვი. თუ რიცხვი 10-ზე ნაკლები იქნება alert-ით გამოიტანეთ შეტყობინება “შემოიტანე 10-ზე მეტი რიცხვი”. სხვა დანარჩენ შემთხვევაში 10-დან მომხმარებლის შემოტანილ რიცხვის ჩათვლით ყველა რიცხვი გამოიტანეთ. (if/else დაგჭირდებათ)
+
+        Number = prompt('enter number: ')
+
+        if(Number < 10){
+            console.log('შემოიტანე 10-ზე მეტი რიცხვი')
+        }
+        else{
+            for (let num = 10;  num < Number ; num++){
+                console.log(num)
+            }
+        }
+    </script>
+</body>
+</html>
