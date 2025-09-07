@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- შექმენით ფუნქცია რომელიც მიესალმება მომხმარებელს.
+        შექმენით ფუნქცია რომელიც კონსოლში გამოიტანს რიცხვებს 2-დან 40-მდე 2-ის გამოტოვებით.
+        შექმენით 4 ფუნქცია ( +, -, *, /), თითოეულ ფუნქციას გადაეცეს ორი არგუმენტი და შეასრულოს შესაბამისი მოქმედება.
+        შექმენით ფუნქცია რომელსაც არგუმენტად გადაეცემა მომხმარებლის შემოტანილი რიცხვი და დააბრუნებს ეს რიცხვი 0ლუწია თუ კენტი.
+        while loop-ით და for loop-ით გამოიტანეთ 50-დან 2-მდე რიცხვები უკუსვლით. -->
+
+    <script>
+            function hellou(name) {
+                return 'hello ' + name
+            }
+
+            console.log(hellou('demetre'))
+            // ------
+            function gam(){
+                let i = 2
+                while(i<40){
+                    console.log(i)
+                    i+=2
+                }
+            }
+            // ----
+            function g(number, op, number2){
+                if (op === '+'){
+                    return number + number2
+                }else if(op === '-'){
+                    return number - number2
+                }else if (op === '*'){
+                    return number * number2
+                }else if (op === '/'){
+                    return number / number1
+                }
+            }
+            // -----
+            
+        function n(){
+            
+        for(let i=50; i>2;i--){
+            console.log(i)
+        }
+        let i = 50
+        while(i<2){
+            console.log(i)
+            i--
+        }
+        }
+    </script>
+</body>
+</html>
