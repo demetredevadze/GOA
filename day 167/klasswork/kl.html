@@ -1,0 +1,26 @@
+<!-- შექმენი ფუნქცია, რომელსაც გადაეცემა სტრინგი და დააბრუნოს ეს სტრინგი შებრუნებული (მაგ: "hello" → "olleh"). -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function gg(str){
+            let cvlad3 = 'aeiou'
+            let cvlad4 = ''
+
+            for( let i=0; i<str.lenght; i++){
+                if(cvlad3.include(str[i])){
+                    cvlad4 += str[i]
+                }
+
+            }
+            console.log(cvlad4)
+        }
+    </script>
+</body>
+</html>
