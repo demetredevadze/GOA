@@ -1,0 +1,21 @@
+div{
+    font-size: 200px;
+}
+.p1{
+    background-color: blueviolet;
+    margin: 200px 100px;
+}
+.p2{
+    background-color: red;
+    margin: 50px 200px 100px 30px;
+}
+.p3{
+    border: 2px solid black;
+    background-color: black;
+    padding:30px 50px;
+}
+.p4{
+    border: 2px solid blue;
+    background-color: blue;
+    padding: 10px 20px 5px 15px;
+}
