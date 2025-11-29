@@ -1,0 +1,44 @@
+body{
+    background-color:  #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+}
+
+button{
+    background-color: #f4d04e;
+    height: 35px;
+    width: 80px;
+    border-radius: 3px;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 7px; 
+    border-radius: 5%;
+    background-color: #ffffff;
+    border: #000000;
+
+}
+
+.img{
+    width: 350px;
+    height: 150px;
+}
+.p2{
+    flex-wrap: wrap;
+}
+.p1{
+    display: flex;
+    display: inline;
+}
+.img2{
+    display: flex;
+    display: inline;
+    width: 20px;
+    height: 20px;
+}

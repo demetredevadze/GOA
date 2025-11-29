@@ -1,0 +1,33 @@
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.p2{
+    background-color: white;
+}
+.demetre{
+    font-size: 10px;
+}
+
+#p1{
+    background-color: blueviolet;
+    border-radius: 10px;
+    color: red;
+    font-weight: 0px 0px 5px blueviolet;
+}
+
+.demetre2{
+    color: red;
+    font-size: 25px;
+
+}
+
+#p2{
+    background-color: yellow;
+    border-radius: 5px;
+    color: blueviolet;
+    border: 2px 2px 2px 2px aqua;
+    font-weight: 0px 0px 5px blue;
+}

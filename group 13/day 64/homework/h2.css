@@ -23,7 +23,7 @@ body{
 }
 
 
-main-div img{
+.main-div img{
     border-radius: 50%;
     width: 100px;
     height: 100px;
@@ -31,7 +31,7 @@ main-div img{
 }
 
 
-main-div h1 {
+.main-div h1 {
     font-size: 25px;
     font-family: sans-serif;
 }
@@ -49,7 +49,7 @@ main-div h1 {
     color: rgba(255, 255, 255, 0.813);
 }
 
-link{
+.link{
     display: flex;
     flex-direction: column;
     gap: 10px;
