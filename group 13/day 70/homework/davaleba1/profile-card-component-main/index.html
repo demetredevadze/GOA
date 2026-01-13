@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+    <link rel="stylesheet" href="index.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .main-div {
+        border-radius: 15px;
+        width: 350px;
+        height: 350px;
+        box-shadow: 0px 0px 5px black;
+      }
+      .div2 {
+        display: flex;
+        justify-content: center;
+      }
+      .div3 {
+        display: flex;
+        align-items: center;
+      }
+      .div4 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-100px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <div class="div1">
+        <img
+          style="width: 100%; border-radius: 15px 15px 0px 0px"
+          src="./images/bg-pattern-card.svg"
+          alt=""
+        />
+      </div>
+      <div class="div2">
+        <img
+          style="border-radius: 50%; transform: translatey(-55px)"
+          src="./image-victor.jpg"
+          alt=""
+        />
+      </div>
+      <br /><br /><br />
+      <div class="div4">
+        <div class="div3">
+          <h3>Victor Crest</h3>
+          <br />
+          <p style="color: gray">26</p>
+        </div>
+        <p style="color: gray">London</p>
+      </div>
+      <hr style="transform: translateY(-65px);">
+      <div style="display: flex; transform: translateY(-50px); justify-content: space-around; text-align: center;" class="div5">
+        <div class="div5-1">
+          <h2>80k</h2>
+          <p>followers</p>
+        </div>
+        <div class="div5-2">
+          <h2>803k</h2>
+          <p>likes</p>
+        </div>
+        <div class="div5-3">
+          <h2>1.4k</h2>
+          <p>Photos</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

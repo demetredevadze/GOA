@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Clipboard landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      font-family: sans-serif;
+    }
+    .chaild1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .chaild1 h1{
+      margin-bottom: 10px;
+    }
+    .chaild1 p{
+      color: gray;
+      margin-bottom: 40px;
+    }
+    .br{
+      margin-bottom: 20px;
+    }
+    .br2{
+      margin-bottom: 80px;
+    }
+    .br3{
+      margin-bottom: 100px;
+    }
+    .br4{
+      margin-bottom: 20px;
+    }
+    .br5{
+      margin-bottom: 10px;
+    }
+    .br6{
+      margin-right: 15px;
+    }
+    .br7{
+      margin-left: 85px;
+      margin-right: 85px;
+    }
+    .brr{
+      color: gray;
+    }
+    .chaild1 img{
+      margin-bottom: 40px;
+      width: 100px;
+      height: 100px;
+    }
+    .chaild1-chaild{
+      display: flex;
+      gap: 15px;
+    }
+    .chaild1-chaild button{
+      border-radius: 25px;
+      width: 200px;
+      height: 39px;
+      border: none;
+      color: white;
+      margin-bottom: 120px;
+    }
+    .button1{
+      background-color: #26baa4;
+      box-shadow: 0px 0px 10px #26baa4;
+    }
+    .button2{
+      background-color: #6173ff;
+      box-shadow: 0px 0px 10px #6173ff;
+    }
+    .chaild2{
+      display: flex;
+      gap: 150px;
+      margin-bottom: 120px;
+    }
+    .chaild2-chaild{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 440px;
+    }
+    .chaild3{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .chaild4{
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+    .div1{
+      text-align: center;
+    }
+    .div2{
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+      gap: 40px;
+    }
+    .div2 img{
+      width: 130px;
+      height: 50px;
+    }
+    .div4{
+      display: flex;
+      align-items: center;
+      background-color: rgb(215, 215, 215);
+      height: 200px;
+      padding: 70px 30px;
+    }
+    .div4-div{
+      display: flex;
+      width: 400px;
+      justify-content: space-around;
+    }
+    .div4-div2{
+      display: flex;
+      width: 240px;
+      justify-content: space-around;
+    }
+    .div4-div3 img{
+      width: 40px;
+      height: 40px;
+    }
+    .div4-div4{
+      display: flex;
+      justify-content: end;
+      width: 900px;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="chaild1">
+      <img src="./images/logo.svg" alt="">
+      <h1>A history of everything you copy</h1>
+      <p>Clipboard allows you to track and organize everything you 
+  copy. Instantly <br> access your clipboard on all your devices.</p>
+        <div class="chaild1-chaild">
+          <button class="button1">Download for iOS</button>
+          <button class="button2">Download for Mac</button>
+        </div>
+        <h1 class="br">Keep track of your snippets</h1>
+        <p class="br2">Clipboard instantly stores any item you copy in the cloud, 
+  meaning you can access <br> your snippets immediately on all your 
+  devices. Our Mac and iOS apps will help you <br> organize everything.</p>
+    </div>
+    <div class="chaild2">
+      <img src="./images/image-computer.png" alt="">
+      <div class="chaild2-chaild">
+        <h1>Quick Search</h1>
+        <p class="brr">Easily search your snippets by content, <br> category, web address, application, and more.</p>
+
+        <h1>iCloud Sync</h1>
+        <p class="brr">Instantly saves and syncs snippets across all <br> your devices.</p>
+
+        <h1>Complete History</h1>
+        <p class="brr">Retrieve any snippets from the first moment <br> you started using the app.</p>
+      </div>
+    </div>
+    <div class="chaild3 br2">
+      <h1 class="br5">Access Clipboard anywhere</h1>
+      <p class="br3 brr">Whether you’re on the go, or at your computer, you can access all your Clipboard <br>
+  snippets in a few simple clicks.</p>
+        <img class="br3" src="./images/image-devices.png" alt="">
+        <h1>Supercharge your workflow</h1>
+        <p class="brr">We’ve got the tools to boost your productivity.</p>
+    </div>
+    <div class="chaild4 br3">
+      <div class="div1">
+        <img class="br5" src="./images/icon-blacklist.svg" alt="">
+        <h1 class="br5">Create blacklists</h1>
+        <p class="brr">Ensure sensitive information never makes its <br> way to your clipboard by excluding certain <br> sources.</p>
+      </div>
+      <div class="div1">
+        <img class="br5" src="./images/icon-text.svg" alt="">
+        <h1 class="br5">Plain text snippets</h1>
+        <p class="brr">Remove unwanted formatting from copied text <br> for a consistent look.</p>
+      </div>
+      <div class="div1">
+        <img class="br5" src="./images/icon-preview.svg" alt="">
+        <h1 class="br5">Sneak preview</h1>
+        <p class="brr">Quick preview of all snippets on your Clipboard <br> for easy access.</p>
+      </div>
+    </div>
+    <div class="div2 br3">
+        <img src="./images/logo-google.png" alt="">
+        <img src="./images/logo-ibm.png" alt="">
+        <img src="./images/logo-microsoft.png" alt="">
+        <img src="./images/logo-hp.png" alt="">
+        <img src="./images/logo-vector-graphics.png" alt="">
+      </div>
+      <div class="chaild1">
+      <h1 class="br5">Clipboard for iOS and Mac OS</h1>
+      <p class="br4">Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+  and <br> you’re ready to start adding to your clipboard.</p>
+        <div class="chaild1-chaild">
+          <button class="button1">Download for iOS</button>
+          <button class="button2">Download for Mac</button>
+        </div>
+      </div>
+      <div class="div4">
+        <div class="div4-div3">
+          <img class="br7" src="./images/logo.svg" alt="">
+        </div>
+        <div class="big">
+          <div class="div4-div br5">
+            <p>FAQs</p>
+            <p>Contact Us</p>
+            <p>Privacy Policy</p>
+          </div>
+          <div class="div4-div2">
+            <p>Press Kit</p>
+            <p>Install Guide</p>
+          </div>
+        </div>
+        <div class="div4-div4">
+          <img class="br6" src="./images/icon-facebook.svg" alt="">
+          <img class="br6" src="./images/icon-twitter.svg" alt="">
+          <img class="br6" src="./images/icon-instagram.svg" alt="">
+        </div>
+      </div>
+  </div>
+</body>
+</html>

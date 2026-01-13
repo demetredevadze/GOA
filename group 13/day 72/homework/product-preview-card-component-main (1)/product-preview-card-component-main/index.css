@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f2ebe3;
+    margin: 0;
+}
+.bigest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+}
+.big img{
+    height: 600px;
+    width: 400px;
+}
+.bigg{
+    font-size: 20px;
+    padding: 20px;
+}
+.bigg h1{
+    font-size: 52px;
+}
+.bigg button{
+    display: block;
+    width: 140px;
+    height: 80px;
+    border-radius: 15px;
+    background-color: green;
+}
+.bigg button p{
+    font-size: 20px;
+
+}
+.bigg .p1{
+    color: green;
+    display: inline;
+}
+.bigg .p2{
+    display: inline;
+}
+.pp1{
+    color: #9e9d9d;
+}
+
+

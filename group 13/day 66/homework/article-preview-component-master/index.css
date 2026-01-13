@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: #e2eaea;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.mein-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    height: 300px;
+
+}
+.chaild2{
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
