@@ -36,10 +36,6 @@ body{
     width: 65px;
     border-radius: 50%;
 }
-.imggg{
-    height: 5px;
-    width: 5px;
-}
 .imgggg{
     display: flex;
     align-items: center;
@@ -53,11 +49,6 @@ body{
     height: 60px;
     width: 65px;
     border-radius: 50%;
-}
-main .imggg:hover{
-    height: 60px;
-    width: 65px;
-    transition: 5s;
 }
 header{
     display: flex;

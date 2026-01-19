@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <!-- 2)შექმენი გვერდი, სადაც ეკრანის მარჯვენა ქვედა კუთხეში იქნება პატარა ღილაკი.
+ღილაკი უნდა დარჩეს იმავე ადგილზე, მაშინაც კი როცა გვერდს ჩამოსქროლავ.
+
+მინიშნება: გამოიყენე position: fixed. -->
+
+    <div class="main">
+        <div style="background-color: red; position: fixed;  height: 150px; width: 150px;">
+            <img style="width: 90px; height: 90px;" src="./Capture.PNG" alt="">
+            <p style="position: fixed; left: 0px; top: 5px;">NEW</p>
+        </div>
+        <h1 style="font-size: 60px; color: red; position: fixed; right: 100px; top: 10px;">red</h1>
+        <button style="position: fixed; right: 100px; bottom: 10px;">click me</button>
+        <div style="background-color: red; height: 2000px; width: 5px;" class="chaild">
+
+        </div>
+        <div style="background-color: red; height: 350px; width: 350px; position: fixed; right: 700px; top: 250px;" class="chaild">
+
+        </div>
+    </div>
+</body>
+</html>

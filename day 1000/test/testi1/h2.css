@@ -1,6 +1,5 @@
 body{
-    background: linear-gradient(to right, #3D3D3D
-,  #578E7E);
+    background: linear-gradient(to right, #030303, #1edf04);
 }
 
 .h1{
@@ -16,15 +15,7 @@ body{
     display: inline;
     transform: translateX(3%);
 }
-.imgff{
-    width: 10px;
-    height: 10px;
-}
-.imgff:hover{
-    height: 60px;
-    width: 65px;
-    transition: 5s;
-}
+
 header{
     display: flex;
     justify-content: center;
