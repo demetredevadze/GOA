@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: blue;
+            margin-bottom: 20px;
+            animation-name: h;
+        }
+        .div2{
+            background-color: red;
+            margin-bottom: 20px;
+            animation-delay: 1s;
+            animation-name: h;
+        }
+        .div3{
+            background-color: green;
+            margin-bottom: 20px;
+            animation-delay: 2s;
+            animation-name: h;
+        }
+        @keyframes h{
+            from{
+
+            }
+            to{
+                transform: translateX(90px);
+                border: 2px solid red;
+                border-radius: 10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 7)შექმენი 3 დივი გვერდიგვერდ მიეცი სხვადასხვა ფერები და დააშორე ერთმანეთს რომ მიტყუპებულები არ იყვნენ, რომ:
+
+ყველას ერთნაირი ანიმაცია ჰქონდეს
+
+მაგრამ განსხვავებული delay ით
+
+პირველი იწყებდეს მაშინვე
+
+მეორე 1 წამში
+
+მესამე 2 წამში
+
+ეს სამი დივი თავიდან განალაგეთ COLUM ზე ანუ ზემოდან ქვემოთ
+
+ანიმაცია არის შემდეგი --- სამივე დივი წავიდეს მარცხნიდან მარჯვნივ და ასევე გაუჩნდეთ წითელი ფერის 5 PX იანი ბორდერი,ასევე მომრგვალდეს,
+
+მინიშნება:სამ KEYFRAME-ს ნუ შექმნით უბრალოდ ყველა დივს(სამივეს)მიანჭებთ ANIMATION NAME რაც ქვია თქვენს ამიმაციას მაგრამ DELAY ის მისცემთ სამივე დივს განსხვავებვულს
+ -->
+<div class="div1"></div>
+<div class="div2"></div>
+<div class="div3"></div>
+</body>
+</html>

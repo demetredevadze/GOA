@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            animation-duration: 0.5s;
+            animation-timing-function: infinite;
+            animation-name: go;
+        }
+    @keyframes go{
+            from{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                opacity: 1;
+            }
+            to{
+                opacity: 0.3;
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 9) "Alarm" ეფექტი:
+
+შექმენი წითელი ბლოკი, რომელიც:
+
+opacity: 1 დან გადავა → 0.3
+
+ხანგრძლივობა 0.5 წამი
+
+და მოხდეს სამუდამოდ -- infinite
+ -->
+<div></div>
+</body>
+</html>

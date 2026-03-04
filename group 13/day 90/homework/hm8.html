@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            animation-duration: 1.5s;
+            animation-name: go;
+            animation-timing-function: 5;
+        }
+    @keyframes go{
+            from{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                transform: scale(0.5);
+            }
+            to{
+                transform: scale(1.2) rotate(360deg);
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 8)შექმენი კვადრატი, რომელიც:
+
+scale(0.5) დან გახდეს → scale(1.2)
+
+rotate(0deg) დან დატრიალდეს → rotate(360deg)
+
+ხანგრძლივობა 1.5 წამი
+
+და მოხდეს 5 ჯერ
+ -->
+<div></div>
+</body>
+</html>

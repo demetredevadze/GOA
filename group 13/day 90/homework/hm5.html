@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            animation-duration: 3s;
+            animation-delay: 2s;
+            animation-name: go;
+            animation-timing-function: 7;
+        }
+    @keyframes go{
+            from{
+                width: 150px;
+                height: 150px;
+                background-color: red;
+                transform: scale(0.3);
+            }
+            to{
+                transform: scale(2);
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 5)შექმენი ელემენტი, რომელიც:
+
+scale(0.3) იდან გაახდება → scale(2)
+
+ხანგრძლივობა 3 წამი
+
+დაგვიანება 2 წამი
+
+განმეორდეს 7 ჯერ
+ -->
+<div></div>
+</body>
+</html>

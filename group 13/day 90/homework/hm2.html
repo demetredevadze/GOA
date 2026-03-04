@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            width: 100px;
+            height: 30px;
+            animation-name: go;
+            animation-duration: 2s;
+            animation-timing-function: 3;
+        }
+        @keyframes go{
+            from{
+                transform: translateY(-200px);
+            }
+            to{
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 2)შექმენი ელემენტი მაგალითად ღილაკი, რომელიც:
+
+    from → translateX(-200px)
+
+    to → translateX(0)
+
+    გაგრძელდეს 2 წამი
+
+    და ანიმაცია განმეორდეს 3 ჯერ
+ -->
+    <button></button>
+</body>
+</html>

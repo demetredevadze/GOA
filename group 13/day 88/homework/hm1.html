@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            display: flex;
+            height: 200px;
+            width: 200px;
+            transition: 5s;
+        }
+        div:hover{
+            transform: scale(1.1);
+            box-shadow: 0px 0px 5px black;
+            background-color: aqua;
+        }
+        img{
+            height: 95px;
+            width: 145px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1)შექმენი card (div --შიგნით --  სურათი + ტექსტი).
+hover-ზე:
+
+გაიზარდოს scale(1.1)
+
+დაემატოს box-shadow
+
+background ფერი ოდნავ შეიცვალოს
+
+transition უნდა იყოს smooth(ყველაფერი მოხდეს ერთ დროში) -->
+    <div>
+        <img src="image.png" alt="">
+        <h1>rich</h1>
+    </div>
+</body>
+</html>

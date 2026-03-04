@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .div{
+            width: 100px;
+            height: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div style="background-color: red; z-index: 1;" class="div"></div>
+    <div style="background-color: blue; position: relative; right: 40px; bottom: 40px; z-index: 2;" class="div "></div>
+    <div style="background-color: yellow; position: relative; right: 100px; bottom: 80px; z-index: 3;" class="div "></div>
+    <div style="background-color: green; position: relative; right: 140px; bottom: 120px; z-index: 4;" class="div "></div>
+</body>
+</html>
