@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: blue;
+            animation-delay: 1s;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            animation-fill-mode: forwards;
+            animation-name: go;
+        }
+        @keyframes go{
+            from{
+                transform: translateX(0px);
+
+            }
+            to{
+                transform: translateX(400px);
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 1) შექმენი div (ბურთი), რომელიც:
+
+მარცხენა კუთხიდან გადადის მარჯვნივ
+
+შემდეგ ბრუნდება უკან
+
+მოძრაობა იყოს ნელი და შემდეგ აჩქარებული (timing-function)
+
+გაგრძელდეს 3 წამი
+
+დაელოდოს 1 წამი დაწყებამდე
+
+გაიმეოროს 4-ჯერ
+
+ბოლოს დარჩეს იმ პოზიციაში, სადაც დასრულდა (fill-mode) -->
+    <div></div>
+</body>
+</html>

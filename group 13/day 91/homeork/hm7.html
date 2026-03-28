@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-delay: 4s;
+            border-radius: 50%;
+            animation-direction: alternate;
+            animation-name: go;
+        }
+        @keyframes go{
+            from{
+                transform: scale(1);
+            }
+            to{
+                transform: scale(2);
+                background-color: blue;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 7)შექმენი ბურთი (div) რომელიც:
+
+ნელა იზრდება
+
+შემდეგ ისევ პატარავდება
+
+მოძრაობა არის უსასრულო
+
+უნდა ჰგავდეს სუნთქვას
+
+👉 მინიშნება: გამოიყენე transform: scale()
+👉 შეიძლება დაგჭირდეს animation-direction: alternate
+
+ -->
+    <div></div>
+</body>
+</html>

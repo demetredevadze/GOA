@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(44, 44, 44);
+            animation-duration: 4s;
+            animation-iteration-count: 5;
+            animation-name: backgroundd;
+        }
+        .big{
+            display: flex;
+            gap: 50px;
+        }
+        .div2{
+            width: 30px;
+            height: 15px;
+            margin-top: 30px;
+            margin-left: 50px;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .div21{
+            margin-top: 60px;
+        }
+        .div22{
+            margin-top: 90px;
+        }
+        .div1{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: black;
+            margin-left: 30px;
+            animation-duration: 4s;
+            animation-iteration-count: 5;
+            animation-name: mze;
+        }
+
+        img{
+            margin-left: 200px;
+            width: 400px;
+            animation-duration: 8s;
+            animation-fill-mode: forwards;
+            animation-name: image;
+
+        }
+        .big22{
+            display: flex;
+        }
+        .div3{
+            border: 5px solid red;
+            height: 150px;
+            width: 150px;
+            margin-bottom: 50px;
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+
+        .big2{
+            display: flex;
+            width: 450px;
+            height: 600px;
+            border: 5px solid red;
+            background-color: white;
+            transform: translateX(1000px) translateY(-200px);
+            animation-delay: 8s;
+            animation-duration: 4s;
+            animation-timing-function: ease-out;
+            animation-name: home;
+        }
+        @keyframes mze{
+            from{
+
+            }
+            to{
+                background-color: yellow;
+            }
+        }
+        @keyframes image{
+            from{
+
+            }
+            to{
+                transform: translateX(420px);
+            }
+        }
+        @keyframes backgroundd{
+            from{
+
+            }
+            to{
+                background-color: white;
+            }
+        }
+        @keyframes home{
+            from{
+
+            }
+            to{
+                transform: translateX(1000px) translateY(-200px) rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="big">
+            <div class="div1"></div>
+            <div class="div2 div"></div>
+            <div class="div2 div21"></div>
+            <div class="div2 div22"></div>
+            <div class="div2 div21"></div>
+            <div class="div2"></div> 
+        </div>
+        <img src="image-removebg-preview.png" alt="">
+        <div class="big2">
+            <div class="gib22">
+                <div class="div3"></div>
+                <div class="div3"></div>
+            </div>
+            <div class="gib22">
+                <div class="div3"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

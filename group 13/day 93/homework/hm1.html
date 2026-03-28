@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img{
+            width: 300px;
+            animation-duration: 20s;
+            animation-fill-mode: forwards;
+            animation-name: car;
+        }
+        .gza{
+            width: 100%;
+            height: 300px;
+            background-color: gray;
+            transform: translateY(-180px);
+        }
+        .image2{
+            height: 120px;
+            transform: translateX(330px);
+            animation-delay: 20s;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            animation-name: image2;
+        }
+        @keyframes image2{
+            from{
+                transform: translateX(330px);
+            }
+            to{
+                transform: rotate(90deg);
+            }
+        }
+        .div{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin-left: 5px;
+        }
+       .div1{
+            background-color: black;
+            animation-duration: 5s;
+            animation-delay: 8s;
+            animation-name: sucnisani1;
+       }
+       .div2{
+            background-color: black;
+            animation-duration: 5s;
+            animation-delay: 13s;
+            animation-name: sucnisani2;
+       }
+       .div3{
+            background-color: black;
+            animation-duration: 5s;
+            animation-delay: 18s;
+            animation-fill-mode: forwards;
+            animation-name: sucnisani3;
+       }
+       .img11{
+            width: 70px;
+            margin-left: 68px;
+            animation-name: borbali;
+            animation-duration: 20s;
+            animation-fill-mode: forwards;
+
+       }
+       @keyframes borbali{
+        0%{
+            transform: translateX(-340px);
+        }
+        100%{
+            transform: translateX(370px);
+            /* rotate(10000000000deg) */
+        }
+       }
+        @keyframes car{
+            from{
+
+            }
+            to{
+                transform: translateX(700px);
+            }
+        }
+
+        .sucnisani{
+            background-color: gray;
+            height: 180px;
+            width: 40px;
+            transform: translateX(1000px) translateY(-170px);
+        }
+        @keyframes sucnisani1{
+            from{
+                margin-left: 5px;
+            }
+            to{
+                background-color: red;
+            }
+
+        }
+        @keyframes sucnisani2{
+            from{
+                margin-left: 5px;
+            }
+            to{
+                background-color: yellow;
+            }
+
+        }
+        @keyframes sucnisani3{
+            from{
+                margin-left: 5px;
+            }
+            to{
+                background-color: green;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="car">
+            <img class="img" src="image.png" alt="">
+            <img src="image copy.png" alt="" class="img1 img11">
+            <img src="image copy.png" alt="" class="img2 img11">
+            <img class="image2" src="image copy 2.png" alt="">
+            <div class="sucnisani">
+                <div class="div1 div"></div>
+                <div class="div2 div"></div>
+                <div class="div3 div"></div>
+            </div>
+
+        </div>
+    </section>
+    <div class="gza">
+
+    </div>
+</body>
+</html>

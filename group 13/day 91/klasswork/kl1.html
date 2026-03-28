@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            animation-delay: 5s;
+            animation-duration: 4s;
+            animation-timing-function: ease-in;
+            animation-fill-mode: both;
+            animation-fill-mode: forwards;
+            animation-name: go;
+        }
+        @keyframes go{
+            from{
+                background-color: blueviolet;
+                border: 5px solid yellow;
+            }
+            to{
+                 transform: translateX(200px) translateY(300px);
+                 border: 6px solid green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 1)შექმენით ერთი დივი -- მიეცი ზომები და ფერი <---მხოლოდ ესენი სხვა არაფერი
+
+რა უნდა ქნას ანიმაციამ --- გაწიოს დივი მარჯვნივ 200px ით და ჩამოწიოს ქვევით 300px,ასევე შეუცვალოს ბექგრაუნდ ფერი გადავიდეს იასამნისფერში,გაუჩნდეს ყვითელი ბორდერი 5px სისქის
+
+შენი ანიამცია უნდა დაიყოს საიტის რეფრეშიდან 5 წამში
+
+შენი ანიმაცია უნდა გარძელდეს 4 წამი
+=========
+
+შენი დავალებაა რომ პიეველ რიგში --- შენი ანიმაცია დაიწყოს ნელა ,აჩქარდეს ,და დამთავრდეს ნელა (animation-timing-function)
+
+ასევე შენი დავალებაა რომ დილეის დროს შეუნარჩუნდეს ელემენტს შენდეგი სტილები(ანუ from ის სტილები) -- background color : yellow; , border radius 5px , border 6px solid green
+
+და ანიმაცია რომ მორჩება შენი ელემენტი დარჩეს to ში მყოფ სტილებზე --- გამოიყენეეთ aniamtion-fill-mode ის შესაბამისი მნშვნელობა  -->
+    <div></div>
+</body>
+</html>
