@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color:#112f34;
+    }
+    section{
+            width: 1155px ;
+            height: 1100px;
+            display: grid;
+            grid-template-rows: repeat(3 , 230px);
+            grid-template-columns: repeat(3 , 365px);
+            gap: 10px;
+        }
+        .div1{
+            grid-column: 1/2;
+        }
+        .div2{
+            grid-column: 2/3;
+        }
+        .div3{
+            grid-column: 3/4;
+        }
+        .div4{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .div5{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .div6{
+          grid-column: 3/4;
+            grid-row: 2/3;
+        }
+        .div7{
+          grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .div8{
+          grid-column: 2/3;
+            grid-row: 3/4;
+        }
+  </style>
+</head>
+<body>
+  <section>
+    <div class="div1" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-devlens.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">DevLens</h2>
+          <p style="color: gray;">Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+
+    <div class="div2" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-style-spy.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">StyleSpy</h2>
+          <p style="color: gray;">Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+
+    <div class="div3" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-json-wizard.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">JSONWizard</h2>
+          <p style="color: gray;">Formats, validates, and prettifies JSON responses in-browser.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+    <div class="div4" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-tab-master-pro.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">TabMaster Pro</h2>
+          <p style="color: gray;">Organizes browser tabs into groups and sessions.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+
+    <div class="div5" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-markup-notes.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">Markup Notes</h2>
+          <p style="color: gray;">Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 85px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+    <div class="div6" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-palette-picker.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">Palette Picker</h2>
+          <p style="color: gray;">Instantly extracts color palettes from any webpage.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+    <div class="div7" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-link-checker.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">StyleSpy</h2>
+          <p style="color: gray;">Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+
+    <div class="div8" style="border: 2px solid gray; border-radius: 30px;">
+      <div class="div1-1 " style="display: flex; margin-top: 20px;margin-left: 20px; gap: 15px;">
+        <img src="./assets/images/logo-link-checker.svg" alt="">
+        <div class="div1-1-1" >
+          <h2 style="color: white;">DevLens</h2>
+          <p style="color: gray;">Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+      </div>
+      <div class="div1-1-2" style="display: flex; margin-top: 100px; justify-content: space-between;">
+          <button style="margin-left: 20px; width: 80px; height: 30px; border-radius: 25%; border: 2px solid gray; background-color: #112f34; color: gray;">Remove</button>
+          <img style="width:50px; " src="./image-removebg-preview (3).png" alt="">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
